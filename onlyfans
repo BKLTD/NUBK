@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SUBZ Platforms Comparison</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Space+Grotesk:wght@500;600&display=swap');
+    
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: #0a0a0a;
+      color: #e0e0e0;
+      margin: 0;
+      padding: 40px 20px;
+      line-height: 1.5;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      background: #111;
+      border-radius: 24px;
+      overflow: hidden;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+    }
+    .header {
+      background: linear-gradient(135deg, #1a1a1a, #2a2a2a);
+      padding: 40px 50px;
+      text-align: center;
+      border-bottom: 1px solid #333;
+    }
+    .title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 42px;
+      font-weight: 600;
+      margin: 0 0 8px 0;
+      color: #fff;
+    }
+    .subtitle {
+      font-size: 18px;
+      color: #aaa;
+      margin: 0;
+    }
+    .main {
+      display: grid;
+      grid-template-columns: 320px 1fr;
+      gap: 0;
+    }
+    .onlyfans-sidebar {
+      background: linear-gradient(180deg, #00d4ff, #0099cc);
+      color: #000;
+      padding: 50px 40px;
+      display: flex;
+      flex-direction: column;
+    }
+    .onlyfans-sidebar h2 {
+      font-size: 28px;
+      margin: 0 0 30px 0;
+      font-weight: 700;
+    }
+    .stat {
+      margin-bottom: 32px;
+    }
+    .stat-value {
+      font-size: 42px;
+      font-weight: 700;
+      line-height: 1.1;
+    }
+    .stat-label {
+      font-size: 15px;
+      opacity: 0.85;
+      margin-top: 4px;
+    }
+    .comparison {
+      padding: 50px 40px;
+      background: #111;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      padding: 16px 12px;
+      text-align: left;
+      border-bottom: 1px solid #333;
+    }
+    th {
+      background: #1a1a1a;
+      font-weight: 600;
+      color: #00d4ff;
+    }
+    .platform-name {
+      font-weight: 600;
+      font-size: 18px;
+    }
+    .bar-container {
+      height: 24px;
+      background: #222;
+      border-radius: 12px;
+      overflow: hidden;
+      margin: 8px 0;
+    }
+    .bar {
+      height: 100%;
+      background: linear-gradient(90deg, #00d4ff, #00aaff);
+      border-radius: 12px;
+    }
+    .insight {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 16px;
+      margin-top: 30px;
+      border-left: 5px solid #00d4ff;
+    }
+    .footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 14px;
+      color: #666;
+      background: #0a0a0a;
+    }
+    .highlight {
+      color: #00ffaa;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 class="title">SUBZ Platforms Comparison</h1>
+      <p class="subtitle">OnlyFans vs. Others • 2024–2026 Data</p>
+      <p style="color:#888; margin-top:8px;">Scale, Revenue & Owner Impact in the Creator Subscription Economy</p>
+    </div>
+    
+    <div class="main">
+      <!-- OnlyFans Sidebar -->
+      <div class="onlyfans-sidebar">
+        <h2>OnlyFans</h2>
+        <div class="stat">
+          <div class="stat-value">$7.2B</div>
+          <div class="stat-label">Gross User Spending (2024)</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">$1.4B</div>
+          <div class="stat-label">Platform Revenue</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">\~$5.8B</div>
+          <div class="stat-label">Creator Payouts</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">\~$1.8B</div>
+          <div class="stat-label">Owner Dividends (cumulative)</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">300M+</div>
+          <div class="stat-label">Users</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">4M+</div>
+          <div class="stat-label">Creators</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">20%</div>
+          <div class="stat-label">Platform Fee</div>
+        </div>
+        <div style="margin-top:auto; font-size:15px; opacity:0.9;">
+          <strong>Extreme outlier</strong> in scale & profitability<br>
+          • Lean operations (\~45 employees)
+        </div>
+      </div>
+
+      <!-- Comparison Table -->
+      <div class="comparison">
+        <table>
+          <thead>
+            <tr>
+              <th>Platform</th>
+              <th>Focus</th>
+              <th>Platform Fee</th>
+              <th>Key Strength</th>
+              <th>Relative Scale</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="platform-name">OnlyFans</td>
+              <td>Adult-dominant, high-volume</td>
+              <td><strong>20%</strong></td>
+              <td>Massive paying user base</td>
+              <td>
+                <div class="bar-container"><div class="bar" style="width:95%"></div></div>
+                <span class="highlight">Dominant</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="platform-name">Fansly</td>
+              <td>Adult, better discovery</td>
+              <td>20%</td>
+              <td>Built-in recommendations</td>
+              <td>
+                <div class="bar-container"><div class="bar" style="width:45%"></div></div>
+                Strong #2 (Adult)
+              </td>
+            </tr>
+            <tr>
+              <td class="platform-name">Patreon</td>
+              <td>Broad: podcasts, art, education</td>
+              <td>5–12% + processing</td>
+              <td>Community & lower fees</td>
+              <td>
+                <div class="bar-container"><div class="bar" style="width:35%"></div></div>
+                Large but diversified
+              </td>
+            </tr>
+            <tr>
+              <td class="platform-name">Substack</td>
+              <td>Newsletters, writing, podcasts</td>
+              <td>10% + processing</td>
+              <td>Discovery + audience ownership</td>
+              <td>
+                <div class="bar-container"><div class="bar" style="width:28%"></div></div>
+                Strong in writing niches
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="insight">
+          <strong>Key Takeaway:</strong> OnlyFans under Leonid Radvinsky generated dramatically higher gross volume and owner returns than any other SUBZ platform across all genres and verticals. Non-adult platforms generally offer lower fees and better tools for sustainable, community-driven growth, but none matched OnlyFans’ raw scale and efficiency.
+        </div>
+
+        <div style="margin-top:30px; display:grid; grid-template-columns:1fr 1fr; gap:20px;">
+          <div style="background:#1a1a1a; padding:20px; border-radius:16px;">
+            <strong>OnlyFans Advantage</strong><br>
+            Extreme cash flow efficiency with minimal staff
+          </div>
+          <div style="background:#1a1a1a; padding:20px; border-radius:16px;">
+            <strong>Creator Reality</strong><br>
+            Multi-homing is common — many creators use 2–3 platforms depending on content type
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      Data from company filings, Sacra, Graphtreon & industry reports (2024–early 2026) • 
+      OnlyFans stood out as the most profitable SUBZ platform ever built
+    </div>
+  </div>
+</body>
+</html>
